@@ -1,0 +1,108 @@
+{
+  "categories": [
+    {
+      "id": "3",
+      "title": "Produits informatiques",
+      "image": "assets/images/categorie_produits_informatiques.jpg",
+      "description": "Produits informatiques",
+      "available": "true"
+    },
+    {
+      "id": "4",
+      "title": "Smart Phones",
+      "image": "assets/images/categorie_smartPhone.jpg",
+      "description": "test",
+      "available": "true"
+    },
+    {
+      "id": "5",
+      "title": "TV, images et son",
+      "image": "assets/images/categorie_tv_image_son.jpg",
+      "description": "TV, images et son",
+      "available": "false"
+    },
+    {
+      "id": "6",
+      "title": "Produits voiture",
+      "image": "assets/images/produits_nettoyages.jpg",
+      "description": "Produits voiture",
+      "available": "false"
+    },
+    {
+      "id": "10",
+      "title": "jouet",
+      "image": "C:\\fakepath\\799dde18594f1adbdeba7da1da585ef7.jpg",
+      "description": "Sonic",
+      "available": "false"
+    },
+    {
+      "id": "11",
+      "title": "Test5",
+      "image": "C:\\fakepath\\4002b78e7b786152416cad32a3150634.jpg",
+      "description": "test5",
+      "available": "false"
+    }
+  ],
+  "products": [
+    {
+      "id": "4",
+      "name": "Oppo SmartPhone",
+      "image": "assets/images/oppo_smart.jpg",
+      "categoryId": 4,
+      "description": "",
+      "price": 1200,
+      "brand": "OPPO",
+      "promotion": 0
+    },
+    {
+      "id": "6",
+      "name": "TV 50''LG",
+      "image": "assets/images/tv_lg.jpg",
+      "categoryId": 5,
+      "description": "",
+      "price": 1800,
+      "brand": "LG",
+      "promotion": 0
+    },
+    {
+      "id": null,
+      "name": "azerty",
+      "image": "C:\\fakepath\\personaaa.png",
+      "categorieId": "",
+      "description": "a",
+      "price": "120",
+      "brand": "serdytfuygiuh",
+      "promotion": "8",
+      "categoryId": "3"
+    },
+    {
+      "id": null,
+      "name": "azertoo",
+      "image": "C:\\fakepath\\personaaa.png",
+      "categorieId": "",
+      "description": "a",
+      "price": "120",
+      "brand": "serdytfuygiuh",
+      "promotion": "8",
+      "categoryId": "3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "jawher@example.com",
+      "password": "password123",
+      "role": "ROLE_ADMIN",
+      "name": "a",
+      "surname": "jo"
+    },
+    {
+      "id": 2,
+      "email": "jawher.ss@example.com",
+      "password": "password456",
+      "role": "ROLE_ADMIN",
+      "name": "chouchou",
+      "surname": "bo"
+    }
+  ]
+}

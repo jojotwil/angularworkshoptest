@@ -1,0 +1,19 @@
+<div>
+    <img
+      [src]="image"
+      [alt]="title"
+      class="img-fluid h-50 w-75"
+    />
+    <h3 >{{title | uppercase}}</h3>
+    <p>{{description}}</p>
+    
+    <button  class="btn btn-primary"  [disabled]="!isAvailable"
+    [routerLink]="['/productcategorie',id]"
+    [queryParams]="{'name':title}">{{btnText}}</button>
+
+    <button  class="btn btn-success" (click)="addToParent()">Add to ShortList</button>
+    <!-- <ng-template #alt>
+        <h4 style="color: red;"  > Categorie non disponible</h4>
+    </ng-template> -->
+    
+  </div>
